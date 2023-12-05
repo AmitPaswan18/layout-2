@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&family=Roboto:wght@100;400&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +21,7 @@ body {
 }
 
 .navbar-item {
-    display: inline-block;
+  display: inline-block;
   padding: 0px 8px 0px;
 }
 
@@ -31,7 +33,7 @@ body {
   font-weight: 300%;
   width: 80%;
   margin: 40px 40px 40px 50px;
-  background-color: #cccccc;
+  background-color: #eeeeee;
   padding: 60px 80px;
   height: 140px;
   border-radius: 4px;
@@ -42,6 +44,7 @@ body {
   height: 34px;
   background-color: #5b92ca;
   border-radius: 6px;
+  border: 1px solid #5b92ca;
   padding: 8px;
   font-size: small;
   color: white;
@@ -75,10 +78,6 @@ body {
 
 .card-image {
   margin: 40px 40px 40px 50px;
-}
-
-.btn {
-  margin-left: 17px;
 }
 
 .img {
@@ -132,6 +131,13 @@ body {
   opacity: 0.3;
 }
 
+.br-line {
+  width: 80vw;
+  height: 0px;
+  margin: 20px auto 20px;
+  border: 1px solid grey;
+  opacity: 0.3;
+}
 /* footer   */
 
 .footer {
@@ -144,71 +150,279 @@ body {
 .main {
   height: 849px;
 }
-
 /* media  query  */
 
-@media only screen and (min-width: 390px) and (max-width: 600px) {
-    .navbar{
-        height: 100px;
-    }
+@media only screen and (min-width: 350px) and (max-width: 600px) {
+  .navbar {
+    height: 94px;
+    padding-left: 53px;
+  }
   .navbar-item {
     display: block;
-
   }
-  .box2 {
-    width: 52%;
-    font-size: small;
-  }
-  .sample-head {
-    font-size: 22px;
-  }
-  .hr-line {
-    width: 90%;
-  }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 1180px) {
   .box2 {
     width: 72%;
-    margin-left: 40px;
+    padding: 30px;
+    margin-left: 58px;
     font-size: small;
   }
   .sample-head {
     width: 90%;
-    font-size: 45px;
+    font-size: 22px;
   }
-  .boxes {
-    height: 370px;
-    width: 425px;
-  }
-  .placeholder-img {
-    height: 209px;
-    width: 92%;
-  }
-}
 
-@media only screen and (min-width: 1180px) and (max-width: 1449px) {
-  .boxes {
-    width: 24%;
+  .features {
+    padding-left: 59px;
+    margin: 5px auto 5px;
   }
-  .placeholder-img {
+
+  .boxes {
     width: 90%;
+    height: 400px;
+    margin: 2px 18px 2px;
+    padding: 20px auto 20px;
+  }
+
+  .placeholder-img {
+    width: 91%;
+    height: 214px;
+  }
+
+  .paragraph {
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+  }
+  .hr-line {
+    margin-left: 63px;
+    opacity: 0.1;
+    width: 80%;
+  }
+
+  .br-line {
+    width: 70vw;
+    height: 0px;
+    padding-left: 35px;
+    margin: 28px 8px 32px;
+    border: 1px solid grey;
+    opacity: 0.3;
+}
   }
 
   .footer {
-    margin: 14px 12px 45px;
+    margin: 12px 10px 48px;
+  }
+
+@media only screen and (min-width: 600px) and (max-width: 850px) {
+  .box2 {
+    width: 75%;
+    height: 200px;
+    padding: 30px;
+    font-size: large;
+  }
+  .sample-head {
+    width: 90%;
+    font-size: 41px;
+  }
+
+  .features {
+    padding-left: 54px;
+  }
+
+  .boxes {
+    width: 40%;
+    height: 400px;
+    margin: 27px 19px 21px;
+    padding: 20px auto 20px;
+  }
+
+  .placeholder-img {
+    width: 91%;
+    height: 200px;
+  }
+
+  .paragraph {
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+  }
+  .hr-line {
+    opacity: 0.1;
+    width: 82%;
+  }
+
+  .footer {
+    margin: 12px 22px 48px;
   }
 }
-@media only screen and (min-width: 829px) and (max-width: 1093px) {
-  .boxes {
-    width: 46%;
-    height: 395px;
+
+@media only screen and (min-width: 600px) and (max-width: 695px) {
+  .btn {
+    width: 187px;
   }
+}
+
+@media only screen and (min-width: 851px) and (max-width: 1100px) {
+  .navbar-item {
+    padding-left: 24px;
+  }
+  .box2 {
+    width: 76%;
+    height: 200px;
+    padding: 30px;
+    margin-left: 68px;
+    font-size: large;
+  }
+  .sample-head {
+    width: 94%;
+    font-size: 46px;
+  }
+
+  .action-btn {
+    margin: 14px auto 8px;
+    border: 1px solid grey;
+  }
+
+  .features {
+    padding-left: 64px;
+  }
+
+  .boxes {
+    width: 26%;
+    height: 400px;
+    margin-left: 66px;
+    margin: 27px 19px 21px;
+    padding: 20px auto 20px;
+  }
+
   .placeholder-img {
-    width: 357px;
-    height: 218px;
-    width: 313px;
-    padding-left: 3%;
-    margin: 10px 3px 10px;
+    width: 91%;
+    height: 200px;
+  }
+
+  .paragraph {
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+  }
+  .hr-line {
+    opacity: 0.1;
+    width: 82%;
+  }
+
+  .btn {
+    width: 188px;
+  }
+  .footer {
+    margin: 12px 22px 48px;
+  }
+}
+
+@media only screen and (min-width: 1095px) and (max-width: 1448px) {
+  .navbar-item {
+    padding-left: 22px;
+  }
+  .box2 {
+    width: 80%;
+    height: 200px;
+    padding: 40px;
+    margin-left: 66px;
+    font-size: large;
+  }
+  .sample-head {
+    width: 94%;
+    font-size: 46px;
+  }
+
+  .action-btn {
+    margin: 14px auto 8px;
+    border: 1px solid grey;
+  }
+
+  .features {
+    padding-left: 68px;
+  }
+
+  .boxes {
+    width: 20%;
+    height: 327px;
+    margin: 27px 19px 21px;
+    padding: 20px auto 20px;
+  }
+
+  .placeholder-img {
+    width: 92%;
+    height: 132px;
+  }
+
+  .btn {
+    width: 188px;
+  }
+
+  .paragraph {
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+  }
+  .hr-line {
+    opacity: 0.1;
+    width: 82%;
+  }
+
+  .footer {
+    margin: 12px 22px 48px;
+  }
+}
+
+@media only screen and (min-width: 1541px) and (max-width: 1920px) {
+  .navbar-item {
+    padding-left: 30px;
+  }
+  .box2 {
+    width: 88%;
+    height: 200px;
+    padding: 30px;
+    margin-left: 72px;
+    font-size: large;
+  }
+  .sample-head {
+    width: 100%;
+
+    font-size: 46px;
+  }
+
+  .action-btn {
+    margin: 14px auto 8px;
+    border: 1px solid grey;
+  }
+
+  .features {
+    padding-left: 72px;
+  }
+
+  .boxes {
+    width: 21%;
+    height: 400px;
+    margin: 26px 23px 21px;
+    padding: 20px auto 20px;
+  }
+
+  .placeholder-img {
+    width: 91%;
+    height: 200px;
+  }
+
+  .paragraph {
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+  }
+  .hr-line {
+    opacity: 0.1;
+    width: 82%;
+  }
+
+  .footer {
+    margin: 12px 22px 48px;
   }
 }
