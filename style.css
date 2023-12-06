@@ -381,6 +381,13 @@ body {
   }
 }
 
+@media only screen and (min-width: 1449px) and (max-width: 1540px) {
+  .inner-text {
+    width: 85%;
+    margin: auto;
+  }
+}
+
 @media only screen and (min-width: 1541px) and (max-width: 1920px) {
   .navbar-item {
     padding-left: 30px;
@@ -396,6 +403,10 @@ body {
     width: 100%;
 
     font-size: 46px;
+  }
+
+  .inner-text {
+    width: 80%;
   }
 
   .action-btn {
@@ -425,9 +436,8 @@ body {
     margin: auto;
   }
   .hr-line {
-
     opacity: 0.1;
-    width:92%;
+    width: 92%;
   }
 
   .br-line {
@@ -440,5 +450,46 @@ body {
 
   .footer {
     margin: 12px 22px 48px;
+  }
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2450px) {
+  .boxes {
+    float: left;
+    height: 432px;
+    border-radius: 3px;
+    width: 416px;
+    margin: 2px 11px 2px;
+    border: 1px solid gray;
+  }
+
+  .inner-text {
+    width: 56%;
+    margin: auto;
+  }
+
+  .placeholder-img {
+    height: 233px;
+    width: 374px;
+    padding-left: 4%;
+    margin: 8px 4px 13px;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 1450px) {
+  .inner-text {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1540px) {
+  .boxes {
+    float: left;
+    height: 405px;
+    border-radius: 3px;
+    width: 338px;
+    margin: 2px 5px 2px;
+    border: 1px solid gray;
   }
 }
