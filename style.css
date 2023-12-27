@@ -1,0 +1,525 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&family=Roboto:wght@100;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+/* navbar   */
+
+.navbar {
+  background-color: black;
+  color: rgb(141, 146, 152);
+  padding-top: 20px;
+  padding-left: 50px;
+  height: 50px;
+  width: 96%;
+}
+
+.navbar-item {
+  display: inline-block;
+  padding: 0px 8px 0px;
+}
+
+/* section   */
+
+.box2 {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300%;
+  width: 80%;
+  margin: 40px 40px 40px 50px;
+  background-color: #eeeeee;
+  padding: 60px 80px;
+  height: 140px;
+}
+
+.call-btn {
+  height: 34px;
+  background-color: #5b92ca;
+  border-radius: 6px;
+  border: 1px solid #5b92ca;
+  padding: 8px;
+  font-size: small;
+  color: white;
+  margin: 10px 10px 10px 0px;
+}
+
+.action-btn {
+  background-color: #5b92ca;
+  border-radius: 3px;
+  padding: 6px;
+  font-size: small;
+  border: 1px solid #5b92ca;
+  color: white;
+  margin: 10px 10px 10px 0px;
+}
+
+.sample-head {
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.features {
+  padding-left: 50px;
+}
+
+.placeholder-img {
+  height: 197px;
+  width: 313px;
+  padding-left: 4%;
+  margin: 10px 3px 10px;
+}
+
+.card-image {
+  margin: 40px 40px 40px 50px;
+}
+
+.img {
+  height: 138px;
+  width: 240px;
+  margin-bottom: 18px;
+}
+
+.box-size {
+  height: 300px;
+  width: 250px;
+  margin: auto;
+  border: 1px solid rgba(141, 146, 152, 0.5);
+}
+
+.main2 {
+  margin-top: 10px;
+  margin-left: 52px;
+}
+.boxes {
+  float: left;
+  height: 348px;
+  border-radius: 3px;
+  width: 338px;
+  margin: 2px 5px 2px;
+  border: 1px solid gray;
+}
+
+.more-info {
+  background-color: white;
+  color: black;
+}
+
+.fe-label {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 3px;
+}
+
+.inner-text {
+  width: 85%;
+  margin: auto;
+}
+
+.hr-line {
+  width: 91vw;
+  height: 0px;
+  margin: 20px auto 20px;
+  border: 1px solid grey;
+  opacity: 0.3;
+}
+
+.br-line {
+  width: 80vw;
+  height: 0px;
+  margin: 20px auto 20px;
+  border: 1px solid grey;
+  opacity: 0.3;
+}
+/* footer   */
+
+.footer {
+  display: inline-block;
+  height: 70px;
+  padding-left: 53px;
+  width: 90%;
+}
+
+.main {
+  height: 849px;
+}
+/* media  query  */
+
+@media only screen and (min-width: 350px) and (max-width: 600px) {
+  .navbar {
+    height: 94px;
+    padding-left: 53px;
+  }
+  .navbar-item {
+    display: block;
+  }
+  .box2 {
+    width: 72%;
+    padding: 30px;
+    margin-left: 58px;
+    font-size: small;
+  }
+  .sample-head {
+    width: 90%;
+    font-size: 22px;
+  }
+
+  .features {
+    padding-left: 59px;
+    margin: 5px auto 5px;
+  }
+
+  .boxes {
+    width: 90%;
+    height: 400px;
+    margin: 27px 18px 2px;
+    padding: 20px auto 20px;
+  }
+
+  .placeholder-img {
+    width: 91%;
+    height: 214px;
+  }
+
+  .paragraph {
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+  }
+  .hr-line {
+    margin-left: 63px;
+    opacity: 0.1;
+    width: 80%;
+  }
+
+  .br-line {
+    width: 70vw;
+    height: 0px;
+    padding-left: 35px;
+    margin: 28px 8px 32px;
+    border: 1px solid grey;
+    opacity: 0.3;
+  }
+}
+
+.footer {
+  margin: 12px 10px 48px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 850px) {
+  .box2 {
+    width: 75%;
+    height: 200px;
+    padding: 30px;
+    font-size: large;
+  }
+  .sample-head {
+    width: 90%;
+    font-size: 41px;
+  }
+
+  .features {
+    padding-left: 54px;
+  }
+
+  .boxes {
+    width: 40%;
+    height: 400px;
+    margin: 27px 19px 21px;
+    padding: 20px auto 20px;
+  }
+
+  .placeholder-img {
+    width: 91%;
+    height: 200px;
+  }
+
+  .paragraph {
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+  }
+  .hr-line {
+    opacity: 0.1;
+    width: 82%;
+  }
+
+  .footer {
+    margin: 12px 22px 48px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 695px) {
+  .btn {
+    width: 187px;
+  }
+}
+
+@media only screen and (min-width: 851px) and (max-width: 1100px) {
+  .navbar-item {
+    padding-left: 24px;
+  }
+  .box2 {
+    width: 76%;
+    height: 200px;
+    padding: 30px;
+    margin-left: 68px;
+    font-size: large;
+  }
+  .sample-head {
+    width: 94%;
+    font-size: 46px;
+  }
+
+  .action-btn {
+    margin: 14px auto 8px;
+    border: 1px solid grey;
+  }
+
+  .features {
+    padding-left: 64px;
+  }
+
+  .boxes {
+    width: 26%;
+    height: 400px;
+    margin-left: 66px;
+    margin: 27px 19px 21px;
+    padding: 20px auto 20px;
+  }
+
+  .placeholder-img {
+    width: 90%;
+    height: 200px;
+    margin: -15px 3px 10px;
+  }
+
+  .paragraph {
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+  }
+  .hr-line {
+    opacity: 0.1;
+    width: 82%;
+  }
+
+  .btn {
+    width: 188px;
+  }
+  .footer {
+    margin: 12px 22px 48px;
+  }
+}
+
+@media only screen and (min-width: 1095px) and (max-width: 1448px) {
+  .navbar-item {
+    padding-left: 22px;
+  }
+  .box2 {
+    width: 80%;
+    height: 200px;
+    padding: 40px;
+    margin-left: 66px;
+    font-size: large;
+  }
+  .sample-head {
+    width: 94%;
+    font-size: 46px;
+  }
+
+  .action-btn {
+    margin: 14px auto 8px;
+    border: 1px solid grey;
+  }
+
+  .features {
+    padding-left: 68px;
+  }
+
+  .boxes {
+    width: 20%;
+    height: 327px;
+    margin: 27px 19px 21px;
+    padding: 20px auto 20px;
+  }
+
+  .placeholder-img {
+    width: 92%;
+    height: 132px;
+  }
+
+  .btn {
+    width: 188px;
+  }
+
+  .paragraph {
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+  }
+  .hr-line {
+    width: 87vw;
+    height: 0px;
+    margin: 20px auto 20px;
+    border: 1px solid grey;
+    opacity: 0.3;
+  }
+
+  .br-line {
+    width: 85vw;
+    height: 0px;
+    margin: 20px 4px 20px;
+    border: 1px solid grey;
+    opacity: 0.3;
+  }
+
+  .footer {
+    margin: 12px 22px 48px;
+  }
+}
+
+@media only screen and (min-width: 1449px) and (max-width: 1540px) {
+  .inner-text {
+    width: 55%;
+    margin: auto;
+  }
+  .br-line {
+    width: 91vw;
+    height: 0px;
+    margin: 20px auto 20px;
+    border: 1px solid grey;
+    opacity: 0.3;
+  }
+}
+@media only screen and (min-width: 1311px) and (max-width: 1428px) {
+  .placeholder-img {
+    width: 86%;
+    height: 156px;
+  }
+}
+
+@media only screen and (min-width: 1541px) and (max-width: 1920px) {
+  .navbar-item {
+    padding-left: 30px;
+  }
+  .box2 {
+    width: 88%;
+    height: 200px;
+    padding: 30px;
+    margin-left: 72px;
+    font-size: large;
+  }
+  .sample-head {
+    width: 100%;
+
+    font-size: 46px;
+  }
+
+  .inner-text {
+    width: 68%;
+  }
+
+  .action-btn {
+    margin: 14px auto 8px;
+    border: 1px solid grey;
+  }
+
+  .features {
+    padding-left: 72px;
+  }
+
+  .boxes {
+    width: 21%;
+    height: 400px;
+    margin: 26px 23px 21px;
+    padding: 20px auto 20px;
+  }
+
+  .placeholder-img {
+    width: 91%;
+    height: 200px;
+  }
+
+  .paragraph {
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+  }
+  .hr-line {
+    opacity: 0.1;
+    width: 92%;
+  }
+
+  .br-line {
+    width: 91vw;
+    height: 0px;
+    margin: 20px auto 20px;
+    border: 1px solid grey;
+    opacity: 0.3;
+  }
+
+  .footer {
+    margin: 12px 22px 48px;
+  }
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2450px) {
+  .boxes {
+    float: left;
+    height: 432px;
+    border-radius: 3px;
+    width: 416px;
+    margin: 2px 11px 2px;
+    border: 1px solid gray;
+  }
+
+  .inner-text {
+    width: 56%;
+    margin: auto;
+  }
+
+  .hr-line {
+    width: 89vw;
+    height: 0px;
+    margin: 20px 49px 20px;
+    border: 1px solid grey;
+    opacity: 0.3;
+  }
+  .placeholder-img {
+    height: 233px;
+    width: 374px;
+    padding-left: 4%;
+    margin: 8px 4px 13px;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 1450px) {
+  .inner-text {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1540px) {
+  .boxes {
+    float: left;
+    height: 405px;
+    border-radius: 3px;
+    width: 338px;
+    margin: 2px 5px 2px;
+    border: 1px solid gray;
+  }
+}
+@media only screen and (min-width: 490px) and (max-width: 600px) {
+  .inner-text {
+    width: 60%;
+    margin: auto;
+  }
+}
